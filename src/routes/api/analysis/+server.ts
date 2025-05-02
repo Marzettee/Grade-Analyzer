@@ -11,7 +11,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const groq = new Groq({
-			apiKey: process.env.GROQ_API_KEY || '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'
+			apiKey: process.env.GROQ_API_KEY || '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'
 		});
 
 		const chatCompletion = await groq.chat.completions.create({
